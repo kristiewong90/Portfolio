@@ -1,0 +1,24 @@
+header {
+    height: 100px;
+    background: #dc4c40;
+}
+
+.hero {
+    height: 200px;
+    background: #B8BEBF;
+}
+
+.body {
+    height: 200px;
+    background: #D7DBDD;
+    border: black;
+}
+
+footer {
+    height: 100px;
+    background: #7B7D7D;
+}
+
+.socal-media-icons .other-icons {
+    display: inline-block;
+}
