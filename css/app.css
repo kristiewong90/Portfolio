@@ -1,7 +1,80 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+.announcement-bar .navigation-bar {
+  font-family: 'Lato', sans-serif;
+}
+
+/* General Styles */
 header {
     height: 100px;
     background: #dc4c40;
 }
+
+/* Header Styles */
+.logo {
+  height: 30px;
+  width: 40px;
+}
+
+.announcement-bar {
+  padding-top: 10px;
+}
+
+.announcement-bar p {
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.header-section {
+  color: #ffffff;
+}
+
+.social-media-icons, .other-icons {
+  text-align: right;
+}
+
+.social-media-icons a, .other-icons a {
+  text-decoration: none;
+  color: white;
+}
+
+.social-media-icons a {
+  padding-left: 30px;
+}
+
+.other-icons a {
+  padding-right: 40px;
+}
+
+/* Navigation Bar */
+.navigation-bar {
+  height: 70px;
+}
+
+.navigation-bar ul {
+  padding-top: 25px;
+  padding-left: 200px;
+}
+
+.navigation-bar li {
+  display: inline-block;
+  padding-right: 70px;
+}
+
+.navigation-bar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation-bar a:hover {
+  color: #dc4c40;
+}
+
+
+
+/* Hero Styles  */
 
 .hero {
     height: 200px;
@@ -17,8 +90,4 @@ header {
 footer {
     height: 100px;
     background: #7B7D7D;
-}
-
-.socal-media-icons .other-icons {
-    display: inline-block;
 }
